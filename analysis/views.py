@@ -16,7 +16,6 @@ def extract_reviews(file):
     else:
         raise ValueError('Invalid file format')
     
-    # Assuming the reviews are in a column named 'Review'
     if 'Review' not in df.columns:
         raise ValueError('No review column found in the file')
     
